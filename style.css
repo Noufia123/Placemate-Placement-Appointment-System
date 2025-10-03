@@ -1,0 +1,18 @@
+body {
+    background-image: url('../images/background.jpg'); /* The relative path to your image */
+    background-size: cover; /* This ensures the image covers the entire viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background image in a fixed position */
+    background-color: #f0f2f5; /* A fallback color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white box for content */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto; /* Centers the box */
+    width: 80%;
+    max-width: 800px;
+}
